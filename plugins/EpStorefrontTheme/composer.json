@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "Theme skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "EpStorefrontTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "EpStorefrontTheme\\EpStorefrontTheme",
+    "label": {
+      "de-DE": "Theme EpStorefrontTheme plugin",
+      "en-GB": "Theme EpStorefrontTheme plugin"
+    }
+  }
+}
